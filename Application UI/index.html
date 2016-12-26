@@ -1,0 +1,36 @@
+<!DOCtype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teacher's application</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <span class="navbar-lines">&#9776;</span>
+    <div class="nav">
+
+        <span class="cross">&#x2717;</span>
+        <a href="#">
+                Home
+            </a>
+        <a href="#">
+                Item 2
+            </a>
+    </div>
+    <div class="form">
+        <form action="login.php" method="post">
+            <input type="text" id="empId" class="form-control" placeholder="Employee Id" required autofocus pattern="[0-9]{1,8}" title="Only digits 0-9 allowed. Max. 8 digits">
+            <input type="password" id="password" class="form-control" placeholder="Password" required>
+            <button type="submit" id="login-btn" class="form-control">Login</button>
+        </form>
+
+    </div>
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
